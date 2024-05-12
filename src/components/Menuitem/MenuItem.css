@@ -1,0 +1,57 @@
+.app__menuitem{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;  
+    align-items: flex-start;
+}
+
+.app__menuitem-head{ 
+    display:flex; 
+    justify-content:center;
+    align-items: center;  
+    margin:0.75rem 0 0.25rem 0;   
+    width:100%; 
+}
+
+.app__menuitem-name{ 
+    flex:1;  
+    text-align: left; 
+}
+
+ .app__menuitem-dash{
+   height:1px; 
+   width:50px;
+   margin:0 0.75em;
+   background: var(--color-golden);  
+ }
+ .app__menuitem-price{
+    display:flex;  
+ }
+ .app__menuitem-sub{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left; 
+    margin-bottom: 0.5rem;
+ }
+
+ @media screen and (max-width:600px){
+       
+.app__menuitem-head{ 
+    display:flex; 
+    justify-content:center;
+    align-items: center;  
+    margin:0;   
+    width:100%; 
+}
+    .app__menuitem-name p{ 
+        display: flex;  
+        margin:0;  
+      }
+
+      .app__menuitem-sub p{ 
+        margin:0;  
+        margin-top:-20px;
+      }
+
+ }
