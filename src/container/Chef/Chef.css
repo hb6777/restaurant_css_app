@@ -1,0 +1,67 @@
+ 
+ 
+ .app__wrapper_info h1{
+    white-space: nowrap;
+    margin: 0 0 1rem 0;
+    border: 0px solid white;   
+    font-size:62px;
+ } 
+
+ .app__wrapper_img img{
+    border: 0px solid yellow; 
+}
+
+ .app__chef-content{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;  
+ }
+
+ .app__chef-content_quote{
+    display: flex;
+    flex-direction: row; 
+ }
+
+ 
+ .app__chef-content_quote img{
+    width:38px;
+    height:38px;
+    margin:0.25rem;
+}
+
+ 
+.app__chef-content_quote p{ 
+    margin:0.5rem;
+    justify-content: flex-start;
+}
+ 
+.app__chef-content_quote p:last-child{ 
+    margin:0;
+    justify-content: flex-start;
+}
+
+.app__chef-sign{
+    margin:3rem 0 0 0 ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+
+
+.app__chef-sign p:first-child{ 
+    font-family: var(--font-base);
+    color:var(--color-golden);
+    font-size:2rem;
+} 
+
+.app__chef-sign img{
+    margin:2rem 0 0 0;
+    width:270px;
+}
+
+@media screen and (max-width:600px){
+   
+ .app__wrapper_info h1{
+    font-size:40px;
+ }
+}
